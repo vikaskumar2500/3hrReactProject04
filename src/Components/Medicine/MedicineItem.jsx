@@ -4,6 +4,7 @@ import MedicineForm from "../Form/MedicineForm";
 const MedicineItem = (props) => {
   const {med} = props;
 
+  console.log(med);
   return (
     <li key={med.id}>
       <div className={classes["medicine-list-item"]}>
