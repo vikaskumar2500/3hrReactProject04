@@ -1,0 +1,27 @@
+.cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  background-color: rgb(95, 19, 19);
+  border-radius: 25px;
+  width: 13rem;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.cart > img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.bedge {
+  padding: 5px 12px;
+  border-radius: 50%;
+  background-color: rgb(199, 28, 28);
+  color: white;
+}

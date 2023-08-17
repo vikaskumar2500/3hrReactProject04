@@ -1,0 +1,29 @@
+
+li {
+  list-style: none;
+}
+
+.item-about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: center;
+  margin: 1rem;
+  gap: 1rem;
+  
+
+  
+}
+.medicine-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+  width: 93%;
+  margin: 1rem;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid azure;
+}

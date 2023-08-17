@@ -1,0 +1,28 @@
+
+.input:not([name="amount"]) {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+  margin: 0.3rem;
+
+}
+
+#name {
+  border: 2px solid red ;
+}
+input[name="amount"] {
+  width: 48px;
+  border-radius: 5px;
+}
+input:not([name='amount']) {
+  /* padding: 7px 30px; */
+  padding: 6px 5px;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+label {
+  font-weight: 650;
+}

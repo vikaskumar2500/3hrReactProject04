@@ -1,0 +1,32 @@
+
+.list-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  flex-direction: column;
+  /* border: 3px solid red; */
+  height: 5rem;
+  /* max-width: 40rem; */
+}
+
+.name {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.description {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+  color: brown;
+
+}
+
+.hrtag {
+  width: 100%;
+}

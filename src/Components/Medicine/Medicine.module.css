@@ -1,0 +1,16 @@
+.medicine-list {
+  max-width: 40rem;
+  margin: 5% auto;
+  background-color: wheat;
+  margin-top: -292px;
+  height: 50vh;
+  border-radius: 20px;
+  padding: 2rem;
+  overflow-y: scroll;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.5);
+  margin-right: 5%;
+}
+
+.medicine-list::-webkit-scrollbar {
+  width: 1rem;
+}

@@ -1,0 +1,12 @@
+
+button{
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: rgb(19, 30, 49);
+  color: white;
+  font-weight: 600;
+}
+
+button[className="add-to-cart"] {
+  color:rgb(15, 115, 203);
+}

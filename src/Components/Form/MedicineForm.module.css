@@ -1,0 +1,13 @@
+
+.medicine-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.medicine-form>button {
+  margin: auto 0;
+}
+
